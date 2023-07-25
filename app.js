@@ -38,6 +38,6 @@ app.get("/", async (req,res)=>{
     res.json({result, geo, country1, ip})
 })
 
-app.listen("8000", ()=>{
+app.listen("80", ()=>{
     console.log("it's running");
 })
